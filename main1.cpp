@@ -1,12 +1,12 @@
 #include <iostream>
 
-
 int main()
 {
-    Animal* p = new Cat();
-    p->say();
+	int* p = new int[2];
 
-    //delete p;
+	std::cout << p;
 
-    return 0;
+	delete[] p;
+
+	return 0;
 }
